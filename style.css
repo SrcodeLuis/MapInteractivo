@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(img/Fondo2.jpg);
+    background-image: url(Fondo2.jpg);
     background-size: cover;
 }
 .container-form{
@@ -31,7 +31,7 @@ body{
     text-align: center;
     color: rgb(234, 244, 245);
     background-color: bisque;
-    background-image: url(img/Fondo1.jpg);
+    background-image: url(Fondo1.jpg);
     background-size: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
