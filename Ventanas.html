@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana con múltiples archivos HTML</title>
+    <style>
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    div {
+        border: 1px solid #000;
+    }
+
+    h2 {
+        color: #ff6347; /* Cambia el color del texto */
+        text-align: center; /* Centra el texto */
+        font-family: Arial, sans-serif; /* Cambia la fuente */
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Mapa de Centrales</h2>
+        <iframe src="MAPACENTRALES.html" width="1450" height="750"></iframe>
+    </div>
+    <div>
+        <h2>Mapa de Operaciones</h2>
+        <iframe src="MAPAPRODUCTOS.html" width="1450" height="750"></iframe>
+    </div>
+    <div>
+        <h2>Mapa de Estrato</h2>
+        <iframe src="MAPAESTRATO.html" width="1450" height="750"></iframe>
+    </div>
+    <div>
+        <h2>Mapa de Productos</h2>
+        <iframe src="MAPAPRODUCTOS.html" width="1450" height="750"></iframe>
+    </div>
+</body>
+</html>

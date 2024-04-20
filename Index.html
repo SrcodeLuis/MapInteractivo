@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html   lang="es">
+<head>
+    <meta   charset="UTF-8">
+    <meta   http-equiv="X-UA-Compatible">
+    <meta   name="viewport" content="device-width", initial-scale=1.0>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel = "stylesheet" href="style.css">
+    <title>Mi Página Principal</title>
+</head>
+<body>
+    <div class="container-form login">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Para Iniciar Tu Mapa Interactivo Inicia Sección En Nuestro Sistema</p>
+                    <input type="button" value="Registrarse1" id="sign-in">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Seccion</h2>
+                    <div class="icons">
+                        <i class='bx bxl-google'></i>
+                        <i class='bx bxl-youtube' ></i>
+                        <i class='bx bxl-whatsapp' ></i>
+                    </div>
+            <p>Iniciar Sección con una Cuenta</p>
+            <form class="form" id="loginForm">
+                <label>
+                    <i class='bx bx-envelope' ></i>
+                    <input type="email" placeholder="Correo Electronico" id="UserCliente">
+                </label>
+                <label>
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" placeholder="Contraseña" id="PassWCliente">
+                </label>
+                <input type="submit" value="Iniciar Seccion">
+            </form>
+        </div>
+    </div>
+</div>
+
+    <div class="container-form Register1 hide">
+            <div class="information">
+                <div class="info-childs">
+                    <h2>!!Bienvenido Nuevamente!</h2>
+                    <p>Para Iniciar Tu Mapa Interactivo Inicia Sección En Nuestro Sistema</p>
+                        <input type="button" value="Iniciar Seccion1" id="sign-up">
+                </div>
+            </div>
+            <div class="form-information">
+                <div class="form-information-childs">
+                    <h2>Crear Una Cuenta Nueva</h2>
+                        <div class="icons">
+                            <i class='bx bxl-google'></i>
+                            <i class='bx bxl-youtube' ></i>
+                            <i class='bx bxl-whatsapp' ></i>
+                        </div>
+                <p>O usa tu correo para registrarte</p>
+                <form class="form" id="registerForm">
+                    <label>
+                        <i class='bx bxs-user-plus' ></i>
+                        <input type="text" placeholder="Nombres Completos">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Correo Electronico" id="UserCliente">
+                    </label>
+                    <label>
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password" placeholder="Contraseña" id="PassWCliente">
+                    </label>
+
+                    <label>
+                        <i class='bx bxs-lock-alt' ></i>
+                        <input type="password" placeholder="Codigo" id="registerCode" name="registerCode" required>
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
